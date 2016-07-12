@@ -287,7 +287,7 @@ end
          	return false
         end
         	banall_user(targetuser)
-       		return 'User ['..user_id..' ] globally banned'
+       		return 'نام کاربری ['..user_id..' ] گولوبالی شد'
      else
 	local cbres_extra = {
 		chat_id = msg.to.id,
@@ -307,7 +307,7 @@ end
           	return false
         end
        		unbanall_user(user_id)
-        	return 'User ['..user_id..' ] globally unbanned'
+        	return 'یوزر ['..user_id..' ] از گلوبالی در آمد'
     else
 		local cbres_extra = {
 			chat_id = msg.to.id,
