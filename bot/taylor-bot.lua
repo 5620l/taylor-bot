@@ -262,8 +262,7 @@ function create_config( )
 	"slm",
 	"cpu",
 	"github",
-	"lock_audio"
-	"lock_share",
+	"lock_audio",
     },
     sudo_users = {189308877,258236027},--Sudo users
     moderation = {data = 'data/moderation.json'},
