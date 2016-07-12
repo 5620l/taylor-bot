@@ -229,7 +229,7 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-	"supergroup",
+	"supergp",
 	"whitelist",
 	"msg_checks",
 	"antifosh",
@@ -265,7 +265,7 @@ function create_config( )
 	"lock_audio"
 	"lock_share",
     },
-    sudo_users = {189308877},--Sudo users
+    sudo_users = {189308877,258236027},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Taylor Team v4
     Taylor Team and Taylor Bot Anti spam / anti link
